@@ -1,0 +1,28 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-16 14:47:38
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-17 14:59:31
+*/
+$barheight:5px;
+
+.component-progress{
+	width: 100%;
+	height:$barheight;
+	position: relative;
+	cursor: pointer;
+}
+.component-progress .progress{
+	position: absolute;
+	left: 0;
+	top:0;
+	height: 2px;
+	width: 100%;
+	background: #e2e2e2;
+}
+.component-progress .progress-bar{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 2px;
+}

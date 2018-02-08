@@ -1,0 +1,31 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-19 08:55:04
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-19 11:20:31
+*/
+.component-music-item{
+	line-height: 0.25rem;
+	padding: 0.1rem 0;
+	border-bottom: 1px solid #ccc;
+	list-style: none;
+}
+.component-music-item .item{
+	width: 100%;
+	position: relative;
+}
+.component-music-item .item a{
+	text-decoration: none;
+	color: #666;
+	font-size: 0.16rem;
+}
+.component-music-item .item a:hover{
+	color: #01973a;
+}
+.component-music-item .item .delete{
+	position: absolute;
+	right: 0;
+	width: 0.2rem;
+	height: 0.2rem;
+	background: url();
+}
