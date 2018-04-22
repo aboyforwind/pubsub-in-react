@@ -4,7 +4,8 @@
   "description": "a music webapp",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --port 8084 --inline"
+    "dev": "webpack-dev-server --port 8084 --inline",
+    "dist": "webpack -p"
   },
   "repository": {
     "type": "git",
